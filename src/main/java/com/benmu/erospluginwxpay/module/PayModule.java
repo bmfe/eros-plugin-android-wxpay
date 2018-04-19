@@ -32,5 +32,18 @@ public class PayModule extends WXModule {
     public void intWXPay(String appid) {
         WXApiModule.getInstans().onCreateWXApi(mWXSDKInstance.getContext(), appid);
     }
+
+    /**
+     * 获取是否安装WeChat
+     */
+    @JSMethod
+    public void isInstallWXApp(JSCallback callback) {
+        WeexEventBean weexEventBean = new WeexEventBean();
+        weexEventBean.setKey(WXEventCenter.EVENT_ISINSTALLWXAPP);
+        weexEventBean.setContext(mWXSDKInstance.getContext());
+        weexEventBean.setJscallback(callback);
+        ManagerFactory.getManagerService(DispatchEventManager.class).getBus().post(weexEventBean);
+
+    }
 }
 
