@@ -1,0 +1,1 @@
+[{"canOverrideExisting":true,"globalRegistration":false,"functions":["intWXPay","payByWechat"],"name":"bmPay","class":"com.benmu.erospluginwxpay.module.PayModule","lazyLoad":true}]

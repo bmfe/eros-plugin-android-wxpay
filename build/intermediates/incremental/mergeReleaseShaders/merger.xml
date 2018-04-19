@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/liuyuanxiao/weex_eros/eros_410/eros-demo/platforms/android/WeexFrameworkWrapper/erospluginwxpay/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/liuyuanxiao/weex_eros/eros_410/eros-demo/platforms/android/WeexFrameworkWrapper/erospluginwxpay/src/release/shaders"/></dataSet></merger>
