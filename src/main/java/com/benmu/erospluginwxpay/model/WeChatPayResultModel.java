@@ -6,6 +6,7 @@ package com.benmu.erospluginwxpay.model;
 
 public class WeChatPayResultModel {
     public int resCode;
+    public int status;
     public String msg;
 
     public WeChatPayResultModel(int resCode, String msg) {
