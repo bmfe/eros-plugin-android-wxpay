@@ -8,9 +8,11 @@ import com.benmu.erospluginwxpay.model.WeChatPayModel;
 import com.benmu.erospluginwxpay.model.WeChatPayResultModel;
 import com.benmu.framework.manager.ManagerFactory;
 import com.benmu.framework.manager.impl.ParseManager;
+import com.benmu.framework.manager.impl.dispatcher.DispatchEventManager;
 import com.benmu.framework.model.WeexEventBean;
 import com.benmu.framework.utils.JsPoster;
 import com.benmu.wxbase.EventGate;
+import com.squareup.otto.Subscribe;
 import com.taobao.weex.bridge.JSCallback;
 import com.tencent.mm.opensdk.constants.ConstantsAPI;
 import com.tencent.mm.opensdk.modelbase.BaseResp;
@@ -56,20 +58,16 @@ public class EventPay extends EventGate {
         request.timeStamp = weChatPayModal.getTimestamp();
         request.sign = weChatPayModal.getSign();
         wxapi.registerApp(weChatPayModal.getAppid());
+        ManagerFactory.getManagerService(DispatchEventManager.class).getBus().register(this);
         wxapi.sendReq(request);
     }
 
-
-    public void onResp(BaseResp resp,Activity context){
-        if (resp.getType() == ConstantsAPI.COMMAND_PAY_BY_WX) {
-            WeChatPayResultModel bean = new WeChatPayResultModel();
-            bean.msg = resp.errStr;
-            bean.resCode = resp.errCode;
-            if (mCallback != null) {
-                mCallback.invoke(bean);
-            }
-            context.finish();
+    @Subscribe
+    public void onPayResult(WeChatPayResultModel result) {
+        if (mCallback != null) {
+            mCallback.invoke(result);
         }
+        ManagerFactory.getManagerService(DispatchEventManager.class).getBus().unregister(this);
     }
 
 }
