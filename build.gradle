@@ -34,13 +34,3 @@ dependencies {
     compile files('libs/libammsdk.jar')
 
 }
-apply plugin: 'com.novoda.bintray-release'
-publish {
-    userOrg = 'erosandroid'
-    repoName='ErosApi'
-    groupId = 'com.benmu.eros'
-    artifactId = 'plugin-wxpay'
-    publishVersion = '1.0.0'
-    desc = 'Wechat pay plugin for Eros'
-    website = 'https://github.com/bmfe/eros-plugin-android-wxpay'
-}
