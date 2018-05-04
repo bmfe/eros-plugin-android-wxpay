@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

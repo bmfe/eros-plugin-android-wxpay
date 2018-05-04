@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/svfade_out_center.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/svfade_out_center.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/svfade_in_center.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/svfade_in_center.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/dialog_enter.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/dialog_enter.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/svslide_in_bottom.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/svslide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/svslide_out_bottom.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/svslide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/svslide_in_top.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/svslide_in_top.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/dialog_exit.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/dialog_exit.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/svslide_out_top.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/svslide_out_top.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/bottom_in.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/bottom_in.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/bottom_out.xml",
+        "source": "/Users/Carry/.android/build-cache/183bae6fda6d9022dd999bb071f65eb81027c6e8/output/res/anim/bottom_out.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/Carry/Code/workSapce/Eros/eros-demo/platforms/android/WeexFrameworkWrapper/eros-plugin-android-wxpay/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/Carry/.android/build-cache/400ae70ed55225969d774ffa2c9c1fc6fcde6c2e/output/res/anim/abc_fade_out.xml"
+    }
+]

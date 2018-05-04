@@ -1,3 +1,17 @@
+buildscript {
+
+    repositories {
+        jcenter()
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+    }
+}
+
+
 apply plugin: 'com.android.library'
 
 android {
@@ -33,14 +47,4 @@ dependencies {
     compile 'com.benmu.eros:eros-nexus:0.0.1'
     compile files('libs/libammsdk.jar')
 
-}
-apply plugin: 'com.novoda.bintray-release'
-publish {
-    userOrg = 'erosandroid'
-    repoName='ErosApi'
-    groupId = 'com.benmu.eros'
-    artifactId = 'plugin-wxpay'
-    publishVersion = '1.0.0'
-    desc = 'Wechat pay plugin for Eros'
-    website = 'https://github.com/bmfe/eros-plugin-android-wxpay'
 }
