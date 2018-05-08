@@ -1,1 +1,0 @@
-# android-eros-plugin-amap

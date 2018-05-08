@@ -1,1 +1,0 @@
-# eros-plugin-android-wxpay
