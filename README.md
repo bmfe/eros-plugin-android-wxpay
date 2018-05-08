@@ -1,1 +1,1 @@
-# eros-plugin-android-wxpay
+# android-eros-plugin-amap
