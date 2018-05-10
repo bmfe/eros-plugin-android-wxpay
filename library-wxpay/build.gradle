@@ -29,5 +29,6 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:25.3.1'
     testImplementation 'junit:junit:4.12'
     compile files('libs/libammsdk.jar')
-    implementation 'com.github.bmfe.eros-nexus:nexus:0.0.6'
+
+    compile project(':nexus')
 }
