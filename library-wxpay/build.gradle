@@ -30,5 +30,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     compile files('libs/libammsdk.jar')
 
-    compile project(':nexus')
+//    compile project(':nexus')
+    implementation 'com.github.bmfe.eros-nexus:nexus:1.0.0'
 }
