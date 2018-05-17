@@ -13,13 +13,13 @@ import com.taobao.weex.common.WXModule;
 /**
  * Created by Carry on 17/2/8.
  */
-@WeexModule(name = "bmPay", lazyLoad = true)
+@WeexModule(name = "bmWXPay", lazyLoad = true)
 public class PayModule extends WXModule {
 
     private JSCallback mCallback;
 
     @JSMethod(uiThread = true)
-    public void payByWechat(String params, JSCallback callback) {
+    public void pay(String params, JSCallback callback) {
         WeexEventBean eventBean = new WeexEventBean();
         eventBean.setContext(mWXSDKInstance.getContext());
         eventBean.setKey(WXEventCenter.EVENT_PAYBYWECHAT);
