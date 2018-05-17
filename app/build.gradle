@@ -26,7 +26,5 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     testImplementation 'junit:junit:4.12'
 
-    implementation 'com.github.bmfe:eros-nexus:0.0.3'
-    implementation 'com.github.bmfe:WeexErosFramework:0.0.4'
     implementation project(':library-wxpay')
 }
