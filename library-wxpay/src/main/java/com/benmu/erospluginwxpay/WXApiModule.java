@@ -13,9 +13,8 @@ import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 public class WXApiModule {
     private static WXApiModule instans;
     private IWXAPI mWXApi;
-
+    private String appId;
     private WXApiModule() {
-
     }
 
     public static WXApiModule getInstans() {
@@ -31,6 +30,7 @@ public class WXApiModule {
 
     public void onCreateWXApi(Context context, String appId) {
         if (!TextUtils.isEmpty(appId)) {
+            this.appId = appId;
             mWXApi = WXAPIFactory.createWXAPI(context, appId, true);
         }
     }
@@ -39,4 +39,11 @@ public class WXApiModule {
         return mWXApi;
     }
 
+    public String getAppId() {
+        return appId;
+    }
+
+    public void setAppId(String appId) {
+        this.appId = appId;
+    }
 }
