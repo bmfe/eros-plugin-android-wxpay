@@ -29,7 +29,7 @@ public class PayModule extends WXModule {
     }
 
     @JSMethod(uiThread = true)
-    public void intWXPay(String appid) {
+    public void intWX(String appid) {
         WXApiModule.getInstans().onCreateWXApi(mWXSDKInstance.getContext(), appid);
     }
 
