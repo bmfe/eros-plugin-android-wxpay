@@ -30,7 +30,7 @@ public class WXApiModule {
     }
 
     public void onCreateWXApi(Context context, String appId) {
-        if (TextUtils.isEmpty(appId)) {
+        if (!TextUtils.isEmpty(appId)) {
             mWXApi = WXAPIFactory.createWXAPI(context, appId, true);
         }
     }
