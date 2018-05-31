@@ -31,5 +31,5 @@ dependencies {
     compile files('libs/libammsdk.jar')
 
 //    compile project(':nexus')
-    implementation 'com.github.bmfe.eros-nexus:nexus:1.0.1'
+    implementation 'com.github.bmfe.eros-nexus:nexus:1.0.3'
 }
