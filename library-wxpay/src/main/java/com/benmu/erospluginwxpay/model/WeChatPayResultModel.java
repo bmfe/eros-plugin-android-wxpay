@@ -8,6 +8,7 @@ public class WeChatPayResultModel {
     public int resCode;
     public int status;
     public String msg;
+    public String errorMsg;
 
     public WeChatPayResultModel(int resCode, String msg) {
         this.resCode = resCode;

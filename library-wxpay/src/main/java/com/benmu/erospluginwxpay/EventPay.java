@@ -64,6 +64,7 @@ public class EventPay extends EventGate {
 
     @Subscribe
     public void onPayResult(WeChatPayResultModel result) {
+        result.errorMsg = result.msg;
         if (mCallback != null) {
             mCallback.invoke(result);
         }
