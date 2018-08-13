@@ -6,6 +6,7 @@ import com.benmu.framework.constant.WXEventCenter;
 import com.benmu.framework.manager.ManagerFactory;
 import com.benmu.framework.manager.impl.dispatcher.DispatchEventManager;
 import com.benmu.framework.model.WeexEventBean;
+import com.benmu.widget.utils.BaseCommonUtil;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXModule;
@@ -36,13 +37,9 @@ public class PayModule extends WXModule {
     /**
      * 获取是否安装WeChat
      */
-    @JSMethod
-    public void isInstallWXApp(JSCallback callback) {
-        WeexEventBean weexEventBean = new WeexEventBean();
-        weexEventBean.setKey(WXEventCenter.EVENT_ISINSTALLWXAPP);
-        weexEventBean.setContext(mWXSDKInstance.getContext());
-        weexEventBean.setJscallback(callback);
-        ManagerFactory.getManagerService(DispatchEventManager.class).getBus().post(weexEventBean);
+    @JSMethod(uiThread = false)
+    public Object isInstallWXApp() {
+        return BaseCommonUtil.isWeChatInstall(mWXSDKInstance.getContext());
 
     }
 }
