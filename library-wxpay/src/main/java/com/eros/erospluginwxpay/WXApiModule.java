@@ -1,4 +1,4 @@
-package com.benmu.erospluginwxpay;
+package com.eros.erospluginwxpay;
 
 import android.content.Context;
 import android.text.TextUtils;

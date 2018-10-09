@@ -1,4 +1,4 @@
-package com.benmu.erospluginwxpay.model;
+package com.eros.erospluginwxpay.model;
 
 import java.io.Serializable;
 

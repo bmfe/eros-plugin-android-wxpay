@@ -1,4 +1,4 @@
-package com.benmu.erospluginwxpay.model;
+package com.eros.erospluginwxpay.model;
 
 /**
  * Created by Carry on 2017/9/26.

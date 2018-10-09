@@ -1,21 +1,18 @@
-package com.benmu.erospluginwxpay;
+package com.eros.erospluginwxpay;
 
-import android.app.Activity;
 import android.content.Context;
 import android.text.TextUtils;
 
-import com.benmu.erospluginwxpay.model.WeChatPayModel;
-import com.benmu.erospluginwxpay.model.WeChatPayResultModel;
-import com.benmu.framework.manager.ManagerFactory;
-import com.benmu.framework.manager.impl.ParseManager;
-import com.benmu.framework.manager.impl.dispatcher.DispatchEventManager;
-import com.benmu.framework.model.WeexEventBean;
-import com.benmu.framework.utils.JsPoster;
-import com.benmu.wxbase.EventGate;
+import com.eros.erospluginwxpay.model.WeChatPayModel;
+import com.eros.erospluginwxpay.model.WeChatPayResultModel;
+import com.eros.framework.manager.ManagerFactory;
+import com.eros.framework.manager.impl.ParseManager;
+import com.eros.framework.manager.impl.dispatcher.DispatchEventManager;
+import com.eros.framework.model.WeexEventBean;
+import com.eros.framework.utils.JsPoster;
+import com.eros.wxbase.EventGate;
 import com.squareup.otto.Subscribe;
 import com.taobao.weex.bridge.JSCallback;
-import com.tencent.mm.opensdk.constants.ConstantsAPI;
-import com.tencent.mm.opensdk.modelbase.BaseResp;
 import com.tencent.mm.opensdk.modelpay.PayReq;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
